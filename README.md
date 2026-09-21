@@ -1,0 +1,2 @@
+# PCA_Project_over_Breast_Cancer_Digit_Recognition_Dataset
+This study investigated how Principal Component Analysis (PCA) affected dimensionality reduction and classification performance using the Breast Cancer and Digits datasets. The datasets were selected because they had different feature structures. Pearson correlation, KMO, and Bartlett's test were used to analyse relationships among the features.
