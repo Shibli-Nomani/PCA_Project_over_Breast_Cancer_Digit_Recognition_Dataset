@@ -4,6 +4,10 @@
 This study investigated how Principal Component Analysis (PCA) affected dimensionality reduction and classification performance using the Breast Cancer and Digits datasets. The datasets were selected because they had different feature structures. Pearson correlation, KMO, and Bartlett's test were used to analyse relationships among the features. PCA was applied after standardisation using different numbers of principal components, while the same Logistic Regression classifier was used before and after PCA for comparison. The evaluation considered explained variance, classification accuracy, F1-score, dimensionality reduction, training time, and reconstruction error. For the Breast Cancer dataset, 10 components retained 95.27% of the variance with 66.67% dimensionality reduction and achieved 96.49% test accuracy. For the Digits dataset, 50 components retained 98.33% of the variance with 21.88% dimensionality reduction and achieved 96.67% test accuracy. The results showed that PCA effectiveness depended on the feature structure of the dataset, and selecting the number of components required a balance between information retention, classification performance, and dimensionality reduction.
 
 ## Datasets: Breast Cancer {0/1} and Digits {0-9} datasets Loaded from sklearn
+
+## Pearson Correlation Distribution Chart (Breast Cancer {0/1} and Digits {0-9} datasets)
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/dc20e726-7b61-4158-b651-4aa3b545e66e" />
+
 ## Scree Plot (Explained Variance and CUMULATIVE Variance) for Breast Cancer
 
 <img width="1790" height="690" alt="image" src="https://github.com/user-attachments/assets/69573d31-8a75-4423-81c4-f230170d2a75" />
